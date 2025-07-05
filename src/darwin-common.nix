@@ -18,7 +18,7 @@
   };
 
   users.users.paulg = {
-    home = "/Users/paulg";
+    home = "/Users/jreydman";
     shell = "${pkgs.fish}/bin/fish";
   };
   users.users.root = {
