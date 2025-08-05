@@ -64,6 +64,13 @@
 
     yazi.enable = true;
 
+    git = {
+      enable = true;
+      userName = globals.username;
+      userEmail = globals.email;
+      ignores = [ ".DS_Store" ];
+    };
+
     ssh = {
       enable = true;
       addKeysToAgent = "confirm";
