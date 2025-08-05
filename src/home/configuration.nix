@@ -17,8 +17,13 @@
       pkgs.neovim-jreydman
       pkgs.tealdeer
       pkgs.pkg-config
+      pkgs.imagemagick
       pkgs.opencv
+      pkgs.nushellPlugins.skim
+      pkgs.nushellPlugins.highlight
+      pkgs.skim
       pkgs.sshfs
+      pkgs.uv
 
       (pkgs.fenix.complete.withComponents [
         "cargo"
@@ -27,6 +32,7 @@
         "rustc"
         "rustfmt"
       ])
+      pkgs.cargo-watch
     ];
   };
 
