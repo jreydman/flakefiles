@@ -28,6 +28,13 @@
   }
 
   {
+    key = "<Leader>fp";
+    mode = "n";
+    silent = true;
+    action = ":lua Snacks.picker.pickers()<CR>";
+  }
+
+  {
     key = "<Leader>fd";
     mode = "n";
     silent = true;
